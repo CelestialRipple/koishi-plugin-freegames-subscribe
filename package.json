@@ -1,0 +1,30 @@
+{
+    "name": "koishi-plugin-freegames-subscribe",
+    "description": "**订阅Epic喜+1、PS+每月会免、XGP入库提醒，任何有关游戏的news！**简洁、轻量的RSS订阅实现，无需puppeteer、无需数据库~",
+    "private": false,
+    "version": "1.0.0",
+    "main": "lib/index.js",
+    "files": [
+        "lib"
+    ],
+    "maintainers": [
+        "ripp <me@hiripple.com>"
+    ],
+    "license": "MIT",
+    "keywords": [
+        "koishi",
+        "plugin",
+        "steam",
+        "game",
+"PlayStation",
+"xbox",
+"subscribe",
+        "epic"
+    ],
+    "peerDependencies": {
+        "koishi": "^4.9.9"
+    },
+    "dependencies": {
+        "axios": "^1.2.2"
+    }
+}
